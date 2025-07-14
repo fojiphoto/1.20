@@ -1,15 +1,29 @@
 {
-    "name": "Golf Orbit",
-    "short_name": "Golf Orbit",
-    "start_url": "index.html",
-    "display": "fullscreen",
-    "background_color": "#000000",
-    "theme_color": "#000",
-    "description": "",
-    "icons": [{
-      "src": "TemplateData/icons/unity-logo-dark.png",
-      "sizes": "144x144",
+  "name": "Golf Orbit",
+  "short_name": "Golf Orbit",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#000",
+  "description": "Play Golf Orbit - hit balls to space!",
+  "icons": [
+    {
+      "src": "TemplateData/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "TemplateData/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "TemplateData/icons/icon-1024x1024.png",
+      "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any maskable"
-    }]
-  }
+    }
+  ]
+}
