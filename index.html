@@ -24,7 +24,7 @@
 
   <script>
     window.addEventListener("load", function () {
-      if ("ServiceWorker" in navigator) {
+      if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("ServiceWorker.js");
       }
     });
@@ -53,17 +53,17 @@
       updateBannerVisibility();
     }
 
-    var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/9853637125e801e9aae48e78dbbdcfca.loader.js";
-    var config = {
-        dataUrl: buildUrl + "/0cd7d42736f9840c7d2497bd194f6522.data.unityweb",
-        frameworkUrl: buildUrl + "/c5e3ce1a0242c704135be4d866484562.framework.js.unityweb",
-        codeUrl: buildUrl + "/f4ecbadad57c4ebc88341fe9350e277e.wasm.unityweb",
-      streamingAssetsUrl: "StreamingAssets",
-        companyName: "TapNationSAS",
-      productName: "Golf Orbit",
-      productVersion: "1.0",
-      showBanner: unityShowBanner,
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/9853637125e801e9aae48e78dbbdcfca.loader.js";
+      var config = {
+          dataUrl: buildUrl + "/267175e87e456c59c2addaff7e8d5b7b.data.unityweb",
+          frameworkUrl: buildUrl + "/c5e3ce1a0242c704135be4d866484562.framework.js.unityweb",
+          codeUrl: buildUrl + "/f4ecbadad57c4ebc88341fe9350e277e.wasm.unityweb",
+          streamingAssetsUrl: "StreamingAssets",
+          companyName: "TapNationSAS",
+          productName: "Golf Orbit",
+          productVersion: "1.25.39",
+          showBanner: unityShowBanner,
     };
 
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
